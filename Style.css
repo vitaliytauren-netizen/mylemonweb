@@ -51,3 +51,27 @@ h1 {
   background: #111;
   color: #fff;
 }
+.fomo {
+  background: #fff3cd;
+  color: #856404;
+  padding: 10px;
+  border-radius: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.online {
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #d63384;
+}
+
+.pulse {
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
